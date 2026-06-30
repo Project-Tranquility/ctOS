@@ -17,8 +17,6 @@ Closes #
 ## Checklist
 - [ ] Conventional Commits used for all commits
 - [ ] Tests added/updated for new behavior
-- [ ] Tests passing on mGBA
-- [ ] `pipx run build` clean locally
 - [ ] Docs/README updated if public API changed
 - [ ] No unrelated changes bundled in this PR
 
