@@ -11,3 +11,6 @@ devenv.local.yaml
 .vscode
 
 __pycache__
+.env
+
+.spotify_token.json
