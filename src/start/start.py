@@ -10,8 +10,6 @@ from rich.text import Text
 from rich.align import Align
 from rich.panel import Panel
 
-from test import demo
-
 console = Console()
 GREEN = "bold spring_green2"
 DIM_GREEN = "spring_green4"
@@ -33,7 +31,7 @@ WAITING_LINE = [
 ]
 
 START_LINE = [
-    "Hello from cpOS"
+    "Hello from ctOS"
 ]
 
 def make_layout() -> Layout:
