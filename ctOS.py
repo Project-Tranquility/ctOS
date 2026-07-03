@@ -1,10 +1,10 @@
-from test import demo
+from src.start.init import demo
 from src.start.start import start
 from src.help import help
 import sys
 from dotenv import load_dotenv
 from src.music.music import music_command
-
+from src.music.init_token import init
 load_dotenv()
 
 def main():
@@ -16,11 +16,15 @@ def main():
     if sys.argv[1] == "--music":
         music_command()
         return
-    if sys.argv[1] == "--help" or "-h":
-        help()
-    if sys.argv[1] == "hello":
+    if sys.argv[1] == "--init":
+        init()
+        return
+    if sys.argv[1] == "--start":
         demo()
         start()
+        return
+    if sys.argv[1] == "--help" or "-h":
+        help()
     else:
         return 84
 main()
